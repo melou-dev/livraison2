@@ -62,14 +62,54 @@ table {
 
 html {
     font-size: 10px;
-    font-family: 'Libre Caslon Text', serif;
+	font-family: 'Libre Caslon Text', serif;
+	color: darkslategrey
     }
 
-/*Grid*/
+/*Use Grid to make block*/
 /*============================================================================================*/
 
+body {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: minmax(150px, auto);
+}
 
-
+.gridmosaic1{
+	grid-colum: 1 / 13;
+	grid-row: 1 / 2;
+	background-color: hsl(5, 56%, 35%); /*bordeau #8C3027*/
+	color: cornsilk;
+	}
+.gridmosaic2{
+	grid-colum: 1 / 13;
+	grid-row: 2 / 3;
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	}
+.gridmosaic3{
+	grid-colum: 1 / 4;
+	grid-row: 3 / 4;
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	}
+.gridmosaic4{
+	grid-colum: 4 / 13;
+	grid-row: 3 / 5;
+	}
+.gridmosaic5{
+	grid-colum: 1 / 4;
+	grid-row: 4 / 5;
+	background-color: hsl(135,26%,28%); /* Dark green #34593D*/
+	}
+.gridmosaic6{
+	grid-colum: 1 / 5;
+	grid-row: 5 / 6;
+	background-color: hsl(135,26%,28%); /* Dark green #34593D*/
+	}
+.gridmosaic7{
+	grid-colum: 5 / 13;
+	grid-row: 5 / 6;
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	}
 
 
 /*_______________________________________________________________________________________________________________________*/
