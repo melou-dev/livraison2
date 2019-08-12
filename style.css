@@ -64,6 +64,45 @@ html {
 	color: darkslategrey
     }
 
+/*header*/
+/*---------------------------------------------------------------------------------*/
+
+header .gridactiononheader{
+	display: grid;
+	grid-template-columns: 20% 1fr;
+	margin: 0 auto;
+	}
+
+header .gridactiononheader nav ul{
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	font-size: 1.5rem;
+	color: whitesmoke;
+	padding: 20px;
+	}
+
+header .gridactiononheader div nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: hsl(5, 56%, 35%); /*bordeau #8C3027*/
+	color: whitesmoke;
+	text-align:center;
+	text-decoration: none;
+}
+
+.nounderline{ /*create a classe to make navifation white*/
+	text-decoration: none;
+	color:white;
+}
+
+header .gridactiononheader div nav ul li a:hover{ /*create a classe to make navifation uppercasewhite*/
+	background-color: hsl(5, 56%, 35%); /*bordeau #8C3027*/
+	color: whitesmoke;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /*_______________________________________________________________________________________________________________________*/
 /*WELCOME PAGE*/
 /*_______________________________________________________________________________________________________________________*/
