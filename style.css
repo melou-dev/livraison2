@@ -124,11 +124,19 @@ body .gridpage{
 /*header*/
 /*---------------------------------------------------------------------------------*/
 
-header .alignallheader nav .navigation{
-	flex-direction: row;
-	Justify-content: stretch;
+header .gridactiononheader{
+	display: grid;
+	grid-template-columns: 20% 1fr;
+	margin: 0 auto;
 }
 
+header .gridactiononheader nav ul{
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	font-size: 1.5rem;
+	color: whitesmoke;
+	padding: 30px;
+	}
 
 _________________________________________________________________________________________________________________*/
 /*CONTACTS*/
