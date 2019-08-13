@@ -147,23 +147,6 @@ body .gridpage{
 /*============================================================================================*/
 
 
-/*WELCOME PAGE - *header*/
-/*---------------------------------------------------------------------------------*/
-
-header .gridactiononheader{
-	display: grid;
-	grid-template-columns: 20% 1fr;
-	margin: 0 auto;
-	}
-
-header .gridactiononheader nav ul{
-	display:grid;
-	grid-template-columns: repeat(6, 1fr);
-	font-size: 1.5rem;
-	color: whitesmoke;
-	padding: 20px;
-	}
-
 /*WELCOME PAGE - main*/
 /*---------------------------------------------------------------------------------*/
 
@@ -216,6 +199,29 @@ footer .coloronnotvisibletextleftbottom{
 /*CONTACTS*/
 /*_______________________________________________________________________________________________________________________*/
 
+/*CONTACTS - main*/
+/*---------------------------------------------------------------------------------*/
+
+.formulary{							/*FORMULARY*/
+	font-size: 1.3rem;
+	}
+
+:required{
+	background-color: #4a8c5b;	   /*FORMULARY*/
+	}
+
+.mapouter{ 							/*GOOGLE MAP*/
+	position:relative;
+	text-align:right;
+	height:250px;
+	width:300px;
+	}
+.gmap_canvas{						/*GOOGLE MAP*/
+	overflow:hidden;
+	background:none;
+	height:250px;
+	width:300px;
+	}
 
 
 
