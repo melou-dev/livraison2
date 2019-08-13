@@ -64,8 +64,21 @@ html {
 	color: darkslategrey
     }
 
+body .gridpage{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: minmax(200px, auto);
+	margin: auto;
+	}
+
 /*header*/
 /*---------------------------------------------------------------------------------*/
+
+.gridmosaicheader{
+	grid-column: 1 / 13;
+	grid-row: 1 / 2;
+	background-color: hsl(5, 56%, 35%); /*bordeau #8C3027*/
+	}
 
 header .gridactiononheader{
 	display: grid;
@@ -88,20 +101,20 @@ header .gridactiononheader div nav ul{
 	color: whitesmoke;
 	text-align:center;
 	text-decoration: none;
-}
+	}
 
-.nounderline{ /*create a classe to make navifation white*/
+.nounderline{ /*create a classe to make navigation white*/
 	text-decoration: none;
 	color:white;
-}
+	}
 
-header .gridactiononheader div nav ul li a:hover{ /*create a classe to make navifation uppercasewhite*/
+header .gridactiononheader div nav ul li a:hover{ /*create a classe to make navifation uppercase white*/
 	background-color: hsl(5, 56%, 35%); /*bordeau #8C3027*/
 	color: whitesmoke;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-}
+	}
 
 /*_______________________________________________________________________________________________________________________*/
 /*WELCOME PAGE*/
@@ -111,18 +124,7 @@ header .gridactiononheader div nav ul li a:hover{ /*create a classe to make navi
 /*WELCOME PAGE - Use Grid to make block*/
 /*============================================================================================*/
 
-body .gridpage{
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-auto-rows: minmax(200px, auto);
-	margin: auto;
-	}
 
-.gridmosaicheader{
-	grid-column: 1 / 13;
-	grid-row: 1 / 2;
-	background-color: hsl(5, 56%, 35%); /*bordeau #8C3027*/
-	}
 
 .gridmosaictitle{
 	grid-column: 1 / 13;
@@ -202,9 +204,49 @@ footer .coloronnotvisibletextleftbottom{
 /*CONTACTS - main*/
 /*---------------------------------------------------------------------------------*/
 
-.formulary{							/*FORMULARY*/
-	font-size: 1.3rem;
+
+.contactmain{
+	display: grid;
+	grid-template-columns: 50px 1fr 1fr 50px;
+	grid-auto-rows: minmax(200px, auto);
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+}
+
+.contactphoto{
+	display: grid;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
 	}
+
+.formulary{
+	display: grid;
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	font-size: 1.5rem;
+	padding: 10px;
+	}
+
+.contactsarea{
+	display: grid;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	background-color: #76a682;
+	font-size: 1.5rem;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.googlemap{
+	display: grid;
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+	background-color: #76a682;
+	font-size: 1.5rem;
+	padding : 20px;
+}
+
 
 :required{
 	background-color: #4a8c5b;	   /*FORMULARY*/
@@ -223,7 +265,9 @@ footer .coloronnotvisibletextleftbottom{
 	width:300px;
 	}
 
-
+table .tablespace{					/*CONTACT TABLE : make a separation between line 2 and 3*/
+	color: #76a682;
+}
 
 /*_______________________________________________________________________________________________________________________*/
 /*SPECIALISTS*/
@@ -244,4 +288,15 @@ footer .coloronnotvisibletextleftbottom{
 /*URGENCIES*/
 /*_______________________________________________________________________________________________________________________*/
 
+
+/*_______________________________________________________________________________________________________________________*/
+/*FOOTER for all*/
+/*_______________________________________________________________________________________________________________________*/
+
+.footerforotherpages{
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 1fr;
+	background-color: #34593D;
+	padding-left: 100px;
+	}
 
