@@ -210,7 +210,7 @@ footer .coloronnotvisibletextleftbottom{
 	grid-template-columns: 50px 1fr 1fr 50px;
 	grid-auto-rows: minmax(200px, auto);
 	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
-}
+	}
 
 .contactphoto{
 	display: grid;
@@ -236,7 +236,7 @@ footer .coloronnotvisibletextleftbottom{
 	font-size: 1.5rem;
 	padding-left: 100px;
 	padding-right: 100px;
-}
+	}
 
 .googlemap{
 	display: grid;
@@ -245,7 +245,7 @@ footer .coloronnotvisibletextleftbottom{
 	background-color: #76a682;
 	font-size: 1.5rem;
 	padding : 20px;
-}
+	}
 
 
 :required{
@@ -284,19 +284,48 @@ table .tablespace{					/*CONTACT TABLE : make a separation between line 2 and 3*
 	font-size: 1.3rem;
 	text-align: center;
 	padding: 50px;
-}
+	}
 
 main section .fontstyleonspecialiststiltes{
 	font-weight: bold;
 	font-size: 1.8rem;
 	color: #34593d;
-}
+	}
 
 
 /*_______________________________________________________________________________________________________________________*/
 /*OPENING HOURS*/
 /*_______________________________________________________________________________________________________________________*/
 
+.openinghours{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(200px, auto);
+	text-align: center;
+	}
+
+main .openhourstable{
+	font-size: 2rem;
+	padding: 10% 10%;
+	}
+
+main .openhourstable table{
+	width: 100%;
+	text-align: left;
+	}
+
+main .openhourstable table td{
+	height: 50px;
+	padding-left: 15%;
+	}
+
+main .openhourstable table .paddingtoptable{
+	padding-top: 10px;
+}
+
+main .applepicture{
+	padding: 10% 10%;
+	}
 
 /*_______________________________________________________________________________________________________________________*/
 /*ABOUT US*/
