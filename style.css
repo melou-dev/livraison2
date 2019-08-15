@@ -323,7 +323,7 @@ main .openhourstable table td{
 
 main .openhourstable table .paddingtoptable{
 	padding-top: 10px;
-}
+	}
 
 main .applepicture{
 	padding: 10% 10%;
@@ -365,6 +365,26 @@ main .applepicture{
 /*URGENCIES*/
 /*_______________________________________________________________________________________________________________________*/
 
+
+main .urgencepagetext{
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	font-size: 1.5rem;
+	padding: 2% 30% 0% 30%;
+	text-align: center;
+	}
+
+main .urgencepagetable{
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	font-size: 1.5rem;
+	padding: 0% 30% 2% 30%;
+	text-align: center;
+}
+
+Main .urgencepagetable .urgencetabledetails{
+	font-size: 2rem;
+	width: 100%;
+	text-align: left;
+}
 
 /*_______________________________________________________________________________________________________________________*/
 /*FOOTER for all*/
