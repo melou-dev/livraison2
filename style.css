@@ -284,6 +284,7 @@ table .tablespace{					/*CONTACT TABLE : make a separation between line 2 and 3*
 	font-size: 1.3rem;
 	text-align: center;
 	padding: 50px;
+	line-height: 130%;
 	}
 
 main section .fontstyleonspecialiststiltes{
@@ -291,6 +292,7 @@ main section .fontstyleonspecialiststiltes{
 	font-size: 1.8rem;
 	color: #34593d;
 	}
+
 
 
 /*_______________________________________________________________________________________________________________________*/
@@ -331,6 +333,33 @@ main .applepicture{
 /*ABOUT US*/
 /*_______________________________________________________________________________________________________________________*/
 
+.aboutuspage{
+	background-color: hsl(39,35%,92%); /*white flowers #F2EDE4*/
+	font-size: 1.3rem;
+	padding: 5% 10%;
+	text-align: center;
+	}
+
+.aboutuspage section .aboutustitle{
+	font-size: 2rem;
+	color: #34593d;
+	}
+
+.aboutuspage section .aboutusparagraph1style{
+	line-height: 130%;
+	}
+
+.aboutuspage section .aboutusparagraph2style{
+	line-height: 130%;
+	font-family: 'Indie Flower', cursive;
+	font-style: initial;
+	font-size:2rem;
+	padding: 0% 15%;
+	}
+
+.aboutuspage section .aboutusphotostyle{  /* doesn't work, I don't know why */
+	max-width: 100%;
+	}
 
 /*_______________________________________________________________________________________________________________________*/
 /*URGENCIES*/
