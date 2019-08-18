@@ -175,6 +175,10 @@ main section div .coloronnotvisibletext{
 	padding: 20px;
 	}
 
+.paddingontextbeetweenpictures ul li{
+	padding-bottom: 1rem;
+	}
+
 /*WELCOME PAGE - footer*/
 /*---------------------------------------------------------------------------------*/
 
